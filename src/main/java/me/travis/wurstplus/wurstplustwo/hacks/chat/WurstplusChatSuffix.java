@@ -106,7 +106,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("wurstplus two");
+				message += Wurstplus.THESAME_SIGN+ convert_base("wurstplus two");
 			}
 
 			if (suffix_random) {
@@ -117,7 +117,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 				suffix_with_randoms.append(convert_base(random_string(random_client_name)));
 				suffix_with_randoms.append(convert_base(random_string(random_client_finish)));
 
-				message += Wurstplus.WURSTPLUS_SIGN + suffix_with_randoms.toString(); 
+				message += Wurstplus.THESAME_SIGN + suffix_with_randoms.toString(); 
 			}
 
 			// If message 256 string length substring.

@@ -16,15 +16,15 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 
-@Mod(modid = "wurstplus", version = Wurstplus.WURSTPLUS_VERSION)
+@Mod(modid = "wurstplus", version = Wurstplus.THESAME_VERSION)
 public class Wurstplus {
 
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
 	public static final String THESAME_NAME = "thesame.space";
-	public static final String WURSTPLUS_VERSION = "1.0";
-	public static final String WURSTPLUS_SIGN = " ";
+	public static final String THESAME_VERSION = "1.0";
+	public static final String THESAME_SIGN = " ";
 
 	public static final int WURSTPLUS_KEY_GUI = Keyboard.KEY_RSHIFT;
 	public static final int WURSTPLUS_KEY_DELETE = Keyboard.KEY_DELETE;
@@ -120,7 +120,7 @@ public class Wurstplus {
 	}
 
 	public static String get_version() {
-		return WURSTPLUS_VERSION;
+		return THESAME_VERSION;
 	}
 
 	public static String get_actual_user() {
