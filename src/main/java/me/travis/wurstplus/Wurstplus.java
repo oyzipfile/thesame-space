@@ -22,7 +22,7 @@ public class Wurstplus {
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
-	public static final String WURSTPLUS_NAME = "Wurst+ 2";
+	public static final String THESAME_NAME = "thesame.space";
 	public static final String WURSTPLUS_VERSION = "1.0";
 	public static final String WURSTPLUS_SIGN = " ";
 
@@ -48,7 +48,7 @@ public class Wurstplus {
 	@Mod.EventHandler
 	public void WurstplusStarting(FMLInitializationEvent event) {
 
-		init_log(WURSTPLUS_NAME);
+		init_log(THESAME_NAME);
 
 		WurstplusEventHandler.INSTANCE = new WurstplusEventHandler();
 
@@ -116,7 +116,7 @@ public class Wurstplus {
 	}
 
 	public static String get_name() {
-		return  WURSTPLUS_NAME;
+		return  THESAME_NAME;
 	}
 
 	public static String get_version() {
